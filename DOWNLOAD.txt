@@ -1,0 +1,10 @@
+CoreLink v1.3 download
+
+Repo: https://github.com/Ben-Zane/corelink-overlay
+Zip:  https://github.com/Ben-Zane/corelink-overlay/archive/refs/heads/main.zip
+
+1. Download the zip.
+2. Unzip to a new folder (not over the old CoreLink.exe).
+3. Keep using the Rainmeter skin if you want LIVE data now — that one already works.
+4. For the EXE: delete every old CoreLink.exe, then run Launch-Admin.bat.
+   Title must say CORELINK v1.3.

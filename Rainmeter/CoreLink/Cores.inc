@@ -1,6 +1,7 @@
 [MeasureC1]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU1 usage
 MinValue=0
 MaxValue=100
@@ -8,6 +9,7 @@ MaxValue=100
 [MeasureC2]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU2 usage
 MinValue=0
 MaxValue=100
@@ -15,6 +17,7 @@ MaxValue=100
 [MeasureC3]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU3 usage
 MinValue=0
 MaxValue=100
@@ -22,6 +25,7 @@ MaxValue=100
 [MeasureC4]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU4 usage
 MinValue=0
 MaxValue=100
@@ -29,6 +33,7 @@ MaxValue=100
 [MeasureC5]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU5 usage
 MinValue=0
 MaxValue=100
@@ -36,6 +41,7 @@ MaxValue=100
 [MeasureC6]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU6 usage
 MinValue=0
 MaxValue=100
@@ -43,6 +49,7 @@ MaxValue=100
 [MeasureC7]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU7 usage
 MinValue=0
 MaxValue=100
@@ -50,6 +57,7 @@ MaxValue=100
 [MeasureC8]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU8 usage
 MinValue=0
 MaxValue=100
@@ -57,6 +65,7 @@ MaxValue=100
 [MeasureC9]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU9 usage
 MinValue=0
 MaxValue=100
@@ -64,6 +73,7 @@ MaxValue=100
 [MeasureC10]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU10 usage
 MinValue=0
 MaxValue=100
@@ -71,6 +81,7 @@ MaxValue=100
 [MeasureC11]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU11 usage
 MinValue=0
 MaxValue=100
@@ -78,6 +89,7 @@ MaxValue=100
 [MeasureC12]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU12 usage
 MinValue=0
 MaxValue=100
@@ -85,6 +97,7 @@ MaxValue=100
 [MeasureC13]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU13 usage
 MinValue=0
 MaxValue=100
@@ -92,6 +105,7 @@ MaxValue=100
 [MeasureC14]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU14 usage
 MinValue=0
 MaxValue=100
@@ -99,6 +113,7 @@ MaxValue=100
 [MeasureC15]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU15 usage
 MinValue=0
 MaxValue=100
@@ -106,6 +121,7 @@ MaxValue=100
 [MeasureC16]
 Measure=Plugin
 Plugin=MSIAfterburner
+GPU=-1
 DataSource=CPU16 usage
 MinValue=0
 MaxValue=100
@@ -121,7 +137,6 @@ FontWeight=600
 AntiAlias=1
 Text=THREADS
 Group=Cores
-Hidden=1
 
 [MeterC1]
 Meter=Bar
@@ -134,7 +149,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC1N]
 Meter=String
@@ -146,7 +160,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=1
 Group=Cores
-Hidden=1
 
 [MeterC2]
 Meter=Bar
@@ -159,7 +172,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC2N]
 Meter=String
@@ -171,7 +183,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=2
 Group=Cores
-Hidden=1
 
 [MeterC3]
 Meter=Bar
@@ -184,7 +195,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC3N]
 Meter=String
@@ -196,7 +206,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=3
 Group=Cores
-Hidden=1
 
 [MeterC4]
 Meter=Bar
@@ -209,7 +218,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC4N]
 Meter=String
@@ -221,7 +229,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=4
 Group=Cores
-Hidden=1
 
 [MeterC5]
 Meter=Bar
@@ -234,7 +241,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC5N]
 Meter=String
@@ -246,7 +252,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=5
 Group=Cores
-Hidden=1
 
 [MeterC6]
 Meter=Bar
@@ -259,7 +264,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC6N]
 Meter=String
@@ -271,7 +275,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=6
 Group=Cores
-Hidden=1
 
 [MeterC7]
 Meter=Bar
@@ -284,7 +287,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC7N]
 Meter=String
@@ -296,7 +298,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=7
 Group=Cores
-Hidden=1
 
 [MeterC8]
 Meter=Bar
@@ -309,7 +310,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC8N]
 Meter=String
@@ -321,7 +321,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=8
 Group=Cores
-Hidden=1
 
 [MeterC9]
 Meter=Bar
@@ -334,7 +333,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC9N]
 Meter=String
@@ -346,7 +344,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=9
 Group=Cores
-Hidden=1
 
 [MeterC10]
 Meter=Bar
@@ -359,7 +356,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC10N]
 Meter=String
@@ -371,7 +367,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=10
 Group=Cores
-Hidden=1
 
 [MeterC11]
 Meter=Bar
@@ -384,7 +379,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC11N]
 Meter=String
@@ -396,7 +390,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=11
 Group=Cores
-Hidden=1
 
 [MeterC12]
 Meter=Bar
@@ -409,7 +402,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC12N]
 Meter=String
@@ -421,7 +413,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=12
 Group=Cores
-Hidden=1
 
 [MeterC13]
 Meter=Bar
@@ -434,7 +425,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC13N]
 Meter=String
@@ -446,7 +436,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=13
 Group=Cores
-Hidden=1
 
 [MeterC14]
 Meter=Bar
@@ -459,7 +448,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC14N]
 Meter=String
@@ -471,7 +459,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=14
 Group=Cores
-Hidden=1
 
 [MeterC15]
 Meter=Bar
@@ -484,7 +471,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC15N]
 Meter=String
@@ -496,7 +482,6 @@ FontColor=92,97,107
 AntiAlias=1
 Text=15
 Group=Cores
-Hidden=1
 
 [MeterC16]
 Meter=Bar
@@ -509,7 +494,6 @@ BarColor=243,244,246
 SolidColor=25,28,35
 BarOrientation=Horizontal
 Group=Cores
-Hidden=1
 
 [MeterC16N]
 Meter=String
@@ -521,4 +505,3 @@ FontColor=92,97,107
 AntiAlias=1
 Text=16
 Group=Cores
-Hidden=1

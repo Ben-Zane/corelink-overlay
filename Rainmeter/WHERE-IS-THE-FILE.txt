@@ -1,0 +1,12 @@
+OPEN THIS IN YOUR BROWSER
+
+Skin file (current on GitHub):
+https://github.com/Ben-Zane/corelink-overlay/blob/main/Rainmeter/CoreLink/CoreLink.ini
+
+Click the Raw button, then Ctrl+S, save as CoreLink.ini
+
+Put it here:
+C:\Users\Thezc\Documents\Rainmeter\Skins\CoreLink\CoreLink.ini
+
+Repo zip:
+https://github.com/Ben-Zane/corelink-overlay/archive/refs/heads/main.zip
